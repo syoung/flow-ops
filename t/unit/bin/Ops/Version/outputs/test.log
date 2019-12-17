@@ -1,0 +1,1228 @@
+2018-08-21 23:55:46    [DEBUG]   	Test::Ops::Common::BUILD	48	
+2018-08-21 23:55:52    [DEBUG]   	Test::Ops::Common::BUILD	48	
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Common::BUILD	48	
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: three-digit build
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-beta.1+build.720
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: build
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: build
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	584	AFTER incrementMixed, build: build.720
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-beta.1+build.720
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-beta.1+build.720
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: patch
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.1
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: patch
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: patch
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.1
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.1
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: minor
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.9.0
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: minor
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: minor
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.9.0
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.9.0
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: major
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 1.0.0
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: major
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: major
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 1.0.0
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 1.0.0
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: releasetype rc1
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-rc1
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: undef
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: rc1
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-rc1
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: releasetype rc1 (even if less than current rc2)
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-rc2+build.719
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-rc1
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: undef
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: rc1
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-rc2+build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	477	release: rc2
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-21 23:56:13    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-21 23:56:13    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-rc1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Common::BUILD	48	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	85	
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	86	
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	87	
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	88	
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build	93	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions1	94	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions2	95	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions3	96	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	97	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	97	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	97	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_vs_release	98	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	99	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	99	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	99	
+2018-08-22 00:05:40    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_alpha_vs_build	100	
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","0"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","1"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.3
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","3"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 3
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.1.13
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","1","13"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.13
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","13"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build37
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build37"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 37
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build3
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build3"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 3
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12"]
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: three-digit build
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-beta.1+build.720
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: build
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: build
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	584	AFTER incrementMixed, build: build.720
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-beta.1+build.720
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-beta.1+build.720
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: patch
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: patch
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: patch
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: minor
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.9.0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: minor
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: minor
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.9.0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.9.0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: major
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 1.0.0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: major
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: major
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 1.0.0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 1.0.0
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: releasetype rc1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-rc1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: undef
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: rc1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-rc1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: releasetype rc1 (even if less than current rc2)
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-rc2+build.719
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-rc1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: undef
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: rc1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-rc2+build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	477	release: rc2
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:40    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:05:40    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-rc1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Common::BUILD	48	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	85	
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	86	
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	87	
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	88	
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build	93	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions1	94	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions2	95	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions3	96	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	97	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	97	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	97	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_vs_release	98	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	99	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	99	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	99	
+2018-08-22 00:05:52    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_alpha_vs_build	100	
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","0"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","1"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.3
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","3"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 3
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.1.13
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","1","13"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.13
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","13"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build37
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build37"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 37
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build3
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build3"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 3
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12"]
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: three-digit build
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-beta.1+build.720
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: build
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: build
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	584	AFTER incrementMixed, build: build.720
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-beta.1+build.720
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-beta.1+build.720
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: patch
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: patch
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: patch
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: minor
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.9.0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: minor
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: minor
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.9.0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.9.0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: major
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 1.0.0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: major
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: major
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 1.0.0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 1.0.0
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: releasetype rc1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-rc1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: undef
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: rc1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-rc1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: releasetype rc1 (even if less than current rc2)
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-rc2+build.719
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-rc1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: undef
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: rc1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-rc2+build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	477	release: rc2
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:05:52    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:05:52    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-rc1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Common::BUILD	48	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	85	
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	86	
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	87	
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	88	
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build	93	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions1	94	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions2	95	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions3	96	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	97	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	97	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	97	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_vs_release	98	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	99	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	99	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	99	
+2018-08-22 00:06:07    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_alpha_vs_build	100	
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","0"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","1"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.3
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","3"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 3
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.1.13
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","1","13"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.13
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","13"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build37
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build37"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 37
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build3
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build3"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 3
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12"]
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	314	expected: 0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	315	actual: 0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: three-digit build
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-beta.1+build.720
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: build
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: build
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	584	AFTER incrementMixed, build: build.720
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-beta.1+build.720
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-beta.1+build.720
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: patch
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: patch
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: patch
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: minor
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.9.0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: minor
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: minor
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.9.0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.9.0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: major
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 1.0.0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: major
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: major
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 1.0.0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 1.0.0
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: releasetype rc1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-rc1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: undef
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: rc1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-rc1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	name: releasetype rc1 (even if less than current rc2)
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	version: 0.8.0-rc2+build.719
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	expected: 0.8.0-rc1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	499	versiontype: undef
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	500	releasename: rc1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-rc2+build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	477	release: rc2
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:06:07    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:06:07    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	504	actual: 0.8.0-rc1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Common::BUILD	8	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	83	
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	84	
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	85	
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	86	
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build	91	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions1	92	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions2	93	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions3	94	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	95	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	95	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	95	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_vs_release	96	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	97	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	97	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	97	
+2018-08-22 00:14:02    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_alpha_vs_build	98	
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","0"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","1"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.3
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","3"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 3
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.1.13
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","1","13"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.13
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","13"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build37
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build37"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 37
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build3
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build3"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 3
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12"]
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: three-digit build
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.0-beta.1+build.720
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: build
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: build
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	584	AFTER incrementMixed, build: build.720
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-beta.1+build.720
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.0-beta.1+build.720
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: patch
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: patch
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: patch
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: minor
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.9.0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: minor
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: minor
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.9.0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.9.0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: major
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 1.0.0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: major
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: major
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 1.0.0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 1.0.0
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: releasetype rc1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.0-rc1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: undef
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: rc1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.0-rc1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: releasetype rc1 (even if less than current rc2)
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-rc2+build.719
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.0-rc1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: undef
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: rc1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-rc2+build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	477	release: rc2
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:14:02    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:14:02    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.0-rc1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Common::BUILD	8	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	83	
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	84	
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	85	
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	86	
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build	91	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions1	92	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions2	93	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions3	94	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	95	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	95	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	95	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_vs_release	96	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	97	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	97	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	97	
+2018-08-22 00:15:17    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_alpha_vs_build	98	
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","0"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","1"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.3
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","3"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 3
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.1.13
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","1","13"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.13
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","13"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build37
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build37"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 37
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build3
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build3"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 3
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12"]
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: three-digit build
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.0-beta.1+build.720
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: build
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: build
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	584	AFTER incrementMixed, build: build.720
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-beta.1+build.720
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.0-beta.1+build.720
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: patch
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: patch
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: patch
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: minor
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.9.0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: minor
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: minor
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.9.0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.9.0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: major
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 1.0.0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: major
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: major
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 1.0.0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 1.0.0
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: releasetype rc1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.0-rc1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: undef
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: rc1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.0-rc1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: releasetype rc1 (even if less than current rc2)
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-rc2+build.719
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.0-rc1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: undef
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: rc1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-rc2+build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	477	release: rc2
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:17    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:15:17    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.0-rc1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Common::BUILD	8	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	83	
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	84	
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	85	
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::higherSemVer	290	returning -1
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Ops::Version::higherSemVer	86	
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::higherSemVer	294	returning 1
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build	91	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions1	92	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions2	93	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_versions3	94	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	95	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	95	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_permutations	95	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_build_vs_release	96	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	97	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	97	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_composite_permutations	97	
+2018-08-22 00:15:29    [CALLER]   	Ops::Version::sortVersions	78	caller: Test::Ops::Version::versionSort_alpha_vs_build	98	
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","0"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","1"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.3
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","1"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","3"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 1 to value2 3
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.1.13
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","1","13"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.13
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","13"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build37
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build37"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 37
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12.build3
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12","build3"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 24 to value2 3
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	242	PASSED version1: 2.8.12.build24
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	243	PASSED version2: 2.8.12
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	246	array1: ["2","8","12","build24"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	248	array2: ["2","8","12"]
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 2 to value2 2
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 8 to value2 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::sameHigherVersion	255	Comparing value1 12 to value2 12
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	312	expected: 0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testSameHigherVersion	313	actual: 0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: three-digit build
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.0-beta.1+build.720
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: build
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: build
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	584	AFTER incrementMixed, build: build.720
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-beta.1+build.720
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.0-beta.1+build.720
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: patch
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: patch
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: patch
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: minor
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.9.0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: minor
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: minor
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.9.0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.9.0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: major
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 1.0.0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: major
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: major
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 1.0.0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 1.0.0
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: releasetype rc1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.0-rc1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: undef
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: rc1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-beta.1+build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	477	release: beta.1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.0-rc1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	494	name: releasetype rc1 (even if less than current rc2)
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	495	version: 0.8.0-rc2+build.719
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	496	expected: 0.8.0-rc1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	497	versiontype: undef
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	498	releasename: rc1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	468	currentversion: 0.8.0-rc2+build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	469	versiontype: undef
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	470	releasename: rc1
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	474	major: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	475	minor: 8
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	476	patch: 0
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	477	release: rc2
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	478	build: build.719
+2018-08-22 00:15:29    [DEBUG]   	Ops::Version::incrementSemVer	605	finalversion: 0.8.0-rc1
+2018-08-22 00:15:29    [DEBUG]   	Test::Ops::Version::testIncrementSemVer	502	actual: 0.8.0-rc1

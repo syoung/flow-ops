@@ -1,0 +1,12 @@
+defaults:
+  package:     testrepo
+  outputdir:   /tmp
+stage:
+  1:
+    reponame:    testrepo
+    basedir:     testrepo
+    branch:      master
+  2:
+    reponame:    testrepo-public
+    basedir:     testrepo-public
+    branch:      dev
